@@ -26,11 +26,11 @@ the actual byte count, then returns the data portion in a caller-owned buffer.
 
 ### Screenshot 1A — `./test_objects`
 
-![Phase 1A](IMAGES/1a.png)
+![Phase 1A](IMAGES/1A.png)
 
 ### Screenshot 1B — `find .pes/objects -type f`
 
-![Phase 1B](IMAGES/1b.png)
+![Phase 1B](IMAGES/1B.png)
 
 ---
 
@@ -51,11 +51,11 @@ object store.
 
 ### Screenshot 2A — `./test_tree`
 
-![Phase 2A](IMAGES/2a.png)
+![Phase 2A](IMAGES/2A.png)
 
 ### Screenshot 2B — `xxd` of a raw tree object
 
-![Phase 2B](IMAGES/2b.png)
+![Phase 2B](IMAGES/2B.png)
 
 ---
 
@@ -77,11 +77,11 @@ calls `index_save`.
 
 ### Screenshot 3A — `pes init` → `pes add` → `pes status`
 
-![Phase 3A](IMAGES/3a.png)
+![Phase 3A](IMAGES/3A.png)
 
 ### Screenshot 3B — `cat .pes/index`
 
-![Phase 3B](IMAGES/3b.png)
+![Phase 3B](IMAGES/3B.png)
 
 ---
 
@@ -98,21 +98,21 @@ pointer atomically.
 
 ### Screenshot 4A — `pes log` with three commits
 
-![Phase 4A](IMAGES/4a.png)
+![Phase 4A](IMAGES/4A.png)
 
 ### Screenshot 4B — `find .pes -type f | sort`
 
-![Phase 4B](IMAGES/4b.png)
+![Phase 4B](IMAGES/4B.png)
 
 ### Screenshot 4C — Reference chain
 
-![Phase 4C](IMAGES/4c.png)
+![Phase 4C](IMAGES/4C.png)
 
 ### Final — `make test-integration`
 
-![Integration test part 1](IMAGES/final1.png)
+![Integration test part 1](IMAGES/Final1.png)
 
-![Integration test part 2](images/final2.png)
+![Integration test part 2](IMAGES/Final2.png)
 
 
 
